@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4faff;
+  font-family: system-ui;
+}
+
+.logo {
+  display: flex;
+}
+
+.logoDiv {
+  border: 1px solid #DEDEDE;
+}
+
+.profileSection {
+  border: 1px solid #DEDEDE;
+  width: 66rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.adminProfile {
+  border: 1px solid #DEDEDE;
+  height: 70px;
+  border-radius: 30px;
+  width: 12rem;
+}
+
+aside {
+  border: 1px solid #DEDEDE;
+  width: 19.7rem;
+  height: 50rem;
+}
+
+div.buttons {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.buttons>* {
+  width: 13rem;
+  height: 3rem;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: none;
+  text-align: center;
+}
+
+button:hover {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+button:first-child {
+  color: white;
+  background-color: #1383f5;
+  border-radius: 25px;
+}
+
+.logout {
+  width: 13rem;
+  height: 3rem;
+  margin: 15rem 3rem;
+  border: none;
+  text-align: center;
+  font-size: 17px;
+}
+
+.section {
+  border: 1px solid #DEDEDE;
+  width: 65rem;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-section {
+  /* border: 1px solid black; */
+  width: 62rem;
+  height: 45rem;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+
+.buttons2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.save {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px !important;
+  background-color: #009efd !important;
+  font-weight: 200;
+  border: none;
+}
+
+.del {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: #009efd;
+  color: #009efd;
+}
+
+.del:hover{
+  border-radius: 0px;
+  border-color: #009efd;
+  border: 2px;
+}
